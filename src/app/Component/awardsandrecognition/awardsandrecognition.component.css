@@ -1,0 +1,40 @@
+.award {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 20%;
+    -moz-column-width: 20%;
+    column-width: 20%; 
+    
+}
+    
+    
+    @media (max-width: 450px) {
+    .award {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+    #award_header{
+        background:#D9EDF7;
+        height:90px;
+        color:black;
+        text-align:center;
+        font-size:30px;
+        padding-top:20px;
+        font-weight:bold;
+        font-family:'Times New Roman', Times, serif;
+        margin-bottom:10px;
+    }
+   

@@ -1,0 +1,12 @@
+#jobpost{background: pink;}
+#page_job{
+    background-image: url('src/assets/img/web2.jpg');
+     background-repeat: no-repeat; 
+     background-size:100% 100%;
+    color:white;
+    height: 400px;
+    }
+	
+#jobpost_admin{background: antiquewhite; padding-top: 20px; padding-bottom: 20px;}
+	
+	

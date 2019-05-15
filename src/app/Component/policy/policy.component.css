@@ -1,0 +1,27 @@
+
+
+#Policies_header ,img{
+    height:250px;
+    width:100%;
+ 
+}
+
+.pdf_download button{margin-left:40px;}
+ td button{margin-top:20px; margin-left:170px;}
+
+ .pdf_download{ margin-left:280px; font-size:20px; }
+ #pdf_link{color:white; }	
+ 
+ #page1{
+     background:#aeaaaa;
+     height:200px; 
+    text-align:center; 
+    font-size:18px;
+    margin-left:3%;
+    margin-bottom: 2%;
+    margin-right:3%;
+    color:white;
+    border-radius:6px;
+}
+.btn{background: rgb(78,144,254);}
+#Policies_header1 h3{text-align:center;}

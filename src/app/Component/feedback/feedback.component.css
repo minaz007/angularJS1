@@ -1,0 +1,55 @@
+#feedback_bg{
+    width:100%;
+    height:auto;
+    background:#f2f2f2;
+}
+#feedback_div{
+    margin:6% 9% 6% 12%;
+    height:auto;
+}
+#content-1{
+    background:rgb(255,158,0);
+    height:auto;
+}
+#content-2{
+    background:rgb(255, 255, 255);
+    height:auto;
+}
+#envelop_symbol{
+    background:white;
+}
+#envelope{
+    width:75%;
+    height:35%;
+    float: left;
+    margin:15% 14% 15% 15%;
+}
+#msg1{
+    text-align:center;
+    color:rgb(52,52,52);
+    font-family:'Times New Roman', Times, serif;
+}
+#form{
+    //margin:30px 50px 54px 80px;
+    margin:10% 10% 10% 10%;
+}
+#label{
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    //width:100%;
+}
+#heading-1{
+    font-family:'Times New Roman', Times, serif;
+}
+#content2_div{
+    //height: 466px;
+    height:auto;
+}
+#error1,#error2,#result{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+}
+.inputs{
+    width: 90%;
+    padding: 1%;
+}

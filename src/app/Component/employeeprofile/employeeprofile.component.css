@@ -1,0 +1,29 @@
+
+#header_emp_profile{
+    background-color: rgb(227,235,237);
+    box-shadow:7px 7px 3px gray;
+    height:130px;
+    Text-align:center;
+}
+#employee_profile{
+    width:100%;
+    height:auto;
+    padding-bottom: 150px;
+}
+
+#directory{
+    background: white;
+   
+  
+    padding-left:20px;
+    height:auto;
+    align:center;
+}
+#directory img{margin-top:100px; margin-left:18%; border:1px solid lightblue; width:150px; height:150px;}
+#directory table{margin-top:0px;}
+#directory table td{color:rgb(53,125,223); font-size:18px; border-collapse:collapse;
+}
+#directory table th{ font-size:18px; color:gray}
+#directory b{font-size:22px; color:black;}
+#directory td,th{margin-top:20%;  padding:5px }
+#col2{margin-left:17%;}

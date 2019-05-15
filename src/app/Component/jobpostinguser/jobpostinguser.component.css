@@ -1,0 +1,20 @@
+#user_post{
+    background-image: url('src/assets/img/2.jpg');
+     background-repeat: no-repeat; 
+     background-size:cover;
+      color:white;
+      padding-bottom:20px;
+      height:auto;
+      text-align:center;
+}
+
+#user_post p{color:black;}
+
+.job-search, #search_option{background:#a09999; height: auto;}
+.job-search{
+width:100%;
+ display: block;
+}
+#job_post_table{margin-top:2%;}
+#job_post_table tr{height:30px;}
+#job_post_table table{width:70%; }

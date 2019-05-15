@@ -1,0 +1,48 @@
+<section id="feedback_page">
+  <div class="container-fluid" id="feedback_bg">
+      <div class="row">
+          <div class="col-sm-10 col-md-10 col-lg-10 col-xs-10" id="feedback_div">
+              <div class="row">
+                  <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4" id="content-1">
+                      
+                          <img src="assets/img/envelope.jpg" id="envelope"/>
+                         
+                      
+                      
+                          <h2 id="msg1">We would love <br> to hear from <br> you!</h2>
+                      
+                      
+                  </div>
+                  <div class="col-sm-7 col-md-7 col-lg-7 col-xs-7" id="content-2">
+                      <div class="row" id="content2_div">
+                              <div class="col-sm-8 col-md-8 col-lg-8 col-xs-8" id="form">
+                                  <form action="feedback1.html" method="post" onsubmit="return checkforblank()">
+                                      <fieldset> 
+                                      <h1 id="heading-1"class="text-center">Send Feedback to HR</h1> 
+                                      <br>
+                                      <div class="form-group">
+                                          <h4 id="label">Subject:</h4>
+                                          <input type="text" class="form-control form-text inputs"   id="subject" aria-describedby="subjectHelp" placeholder="Enter subject">
+                                          <b id="error1"></b>                                                
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                          <h4 id="label">Your Message:</h4>
+                                          <textarea class="form-control form-text inputs" id="message" rows="3" placeholder="Enter Your message " ></textarea>
+                                          <b id="error2"></b>  
+                                      </div>
+                          
+                                      <button type="submit" id="btn_feedback" class="btn-primary">Submit</button>
+                                      <b id="result"></b>
+                                      </fieldset>
+                                  </form>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+</section>

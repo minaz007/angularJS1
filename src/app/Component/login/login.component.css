@@ -1,0 +1,140 @@
+
+body, html {
+    height: 100%;
+	font-family: 'Times New Roman', Times, serif;
+}
+/*Login Page*/
+.logincontainer{
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f2f2f2;  
+}
+.wrap-login100 {
+  width: 350px;
+  height:500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkip-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-size:35px;
+  color:royalblue;
+  margin-top:30%;
+  text-align:center;
+  margin-left:0%;
+  margin-top:10px;
+}
+img{
+  margin-top:-50px;
+  margin-left:30%;
+}
+.login100-form-title i {
+  font-size: 60px;
+}
+
+.wrap-login100 .input-group{
+  position:relative;
+  margin-left:10px;
+	
+}
+.wrap-login100 .input-group input{
+	width:100%;
+	padding:10px 0px;
+	font-size:16px;
+  margin-bottom:25px;
+	border:none;
+	border-bottom:1px solid #555555;
+	outline:none;
+  background:transparent;
+  
+	
+}
+.wrap-login100 .input-group label{
+	position:absolute;
+	top:0;
+  left:0;
+	padding:10px 0px;
+	font-size:16px;
+	color:#999999;
+	pointer-events:none;
+  transition:.5s;
+  width:100%;
+}
+.wrap-login100 .input-group input:focus ~ label,
+.wrap-login100 .input-group input:valid ~ label{
+	top:-18px;
+	left:0;
+	color:#999999;;
+	font-size:12px;
+}
+input[type="checkbox"]{
+  
+  height:15px;                                                          
+}
+
+small{
+  font-size:14px;
+  color:royalblue;
+  margin-left:15px;
+}
+.forget {
+  font-size:14px;
+  color:royalblue;
+  margin-left:30%;  
+}
+.forget:hover{
+  text-decoration:none;
+  color:royalblue;
+}
+.btn{
+  margin-top:10px;
+  width:80px;
+  font-size:18px;
+  background:royalblue;
+  color:#fff;
+  margin-left:100px;
+}
+.btn:hover{
+  color:#fff;
+}
+.btn button{
+  background: none;
+  color:#fff;
+  border:none;
+}
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.sign{
+  font-size:14px;
+  color:royalblue;
+  margin-left:45px;
+  margin-top:30px;
+  
+}
+.sign a:hover{
+  text-decoration:none;
+  color:royalblue;
+}

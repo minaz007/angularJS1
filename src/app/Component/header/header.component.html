@@ -1,0 +1,82 @@
+<header id="header"><!--header-->
+  <div class="header_top"><!--header_top-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+        
+            <ul class="nav nav-pills">
+              <img src="assets/img/logom.png">
+            </ul>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+      </div>
+    </div>
+  </div><!--/header_top-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              People
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" routerLink="/mediagallery">Employee Directory</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Media Gallery</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Employee Profile</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Employee Survey</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Send Feedback to HR</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">E-Learning</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Employee Onboarding</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Quiz</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Policies & Procedures</a></li>
+              <li><a class="dropdown-item" routerLink="/holiday">Holiday Calendar</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Job Postings</a></li>
+              <li><a class="dropdown-item" routerLink="/mediagallery">Awards & Recognition</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sales & Marketing
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">CRM</a></li>
+                <li><a class="dropdown-item" href="#">New Launches</a></li>
+                <li><a class="dropdown-item" href="#">New Customers</a></li>
+                <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                <li><a class="dropdown-item" href="#">Product Information</a></li>
+                <li><a class="dropdown-item" href="#">Geo-Attendance Tracking</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Finance_Admin
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Asset Register</a></li>
+                  <li><a class="dropdown-item" href="#">Manage Vendors</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Transactions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Tasks / To-Do</a></li>
+                  <li><a class="dropdown-item" href="#">Raise a Ticket</a></li>
+                </ul>
+            </li>
+        </ul>
+       
+      </div>
+    </nav>
+    <a class="nav-item nav-link" (click)="logout()">Logout</a>
+</header>

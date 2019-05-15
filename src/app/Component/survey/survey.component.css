@@ -1,0 +1,18 @@
+.h {
+    background-color: #D9EDF7;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.survey {
+    background-image: url('src/assets/img/bluebg.png');
+}
